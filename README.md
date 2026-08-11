@@ -1,0 +1,22 @@
+# AI-Powered Interaction Builder
+
+## Project Description
+This project is an interactive web application that generates a customized greeting for the user based on their name and the current time of day. It demonstrates how to combine HTML, CSS, and JavaScript, specifically using an AI-generated JavaScript function and wiring it up with DOM Event Listeners.
+
+## How to Run It
+1. Download or clone this repository to your local machine.
+2. Open the `index.html` file in any modern web browser (e.g., Chrome, Firefox, Safari).
+3. Enter your name in the first input field.
+4. Enter the time of day (e.g., morning, afternoon, evening) in the second input field.
+5. Click the "Generate Greeting" button to see your custom greeting!
+
+## AI Tools & Prompts Used
+This project utilized an AI Coding Assistant to help generate the core logic for the greeting.
+
+**Prompt Used:**
+> Act as a JavaScript coding assistant. Write a single JavaScript function named "generateCustomGreeting". 
+> It should accept two parameters: "name" and "time". 
+> Inside the function, it should return a string that looks like this: 
+> "Good [time], [name]! Welcome back to JavaScript class."
+> Ensure the function handles missing data: if no time is provided, it should default to "day". 
+> Return only the JavaScript function code, no markdown explanations.
